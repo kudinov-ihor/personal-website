@@ -1,0 +1,13 @@
+{
+    "sectionTitle" : "Проєкти",
+    "sectionDescr" : "Усі дизайни куплені або взяті з безкоштовних ресурсів",
+    "projectList" : [
+        {"id" : 1, "name" : "ПРАВОВА АСОЦІАЦІЯ «ПРАВОВА ЛІГА»", "content" : "Протягом цього проєкту я розробив сайт https://sud.te.ua/ для розробки я використав HTML, CSS. Також я використав CMS WordPress.", "image" : "portfolio_sud"},
+        {"id" : 2, "name" : "Видавництво книгарні «Джура»", "content" : "Під час проекту я створив інтернет-магазин https://dzhura.te.ua/ обробив електронні таблиці Excel для створення баз даних. Я отримав великий досвід роботи з конструктором сайтів WayForPay.", "image" : "portfolio_dzhura"},
+        {"id" : 3, "name" : "Благодійна організація «ХРИСТИЯНСЬКИЙ БЛАГОДІЙНИЙ ФОНД «ДОБРОТВОР»", "content" : "Під час проекту розробив сайт https://dobrotvor.com.ua/ Розробляю дизайн як для комп’ютерної, так і для мобільної версії. Я зробив розробку макету сайту з використанням HTML, CSS (SCSS), JavaScript. Також я зробив іншу версію за допомогою React framework. Я зробив цей веб-сайт міжнародним, додавши кілька мов. Крім того, я зробив цей веб-сайт видимим у Пошуку Google. Також додано сервіс аналітики Google.", "image" : "portfolio_fund"},
+        {"id" : 4, "name" : "Simple Landing Page using HTML/CSS", "image" : "portfolio_konstrukt"},
+        {"id" : 5, "name" : "Simple Landing Page for Restauraunt using React techlogies", "image" : "portfolio_restauraunt"},
+        {"id" : 6, "name" : "Landing Page with Bootstrap Grid system HTML and CSS", "image" : "uber"}
+    ]
+
+}

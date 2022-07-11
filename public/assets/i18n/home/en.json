@@ -1,0 +1,10 @@
+{
+    "title" : "Hello",
+    "subTitle" : "A bit about me",
+    "content" : "I'm an enthusiastic and detail-oriented Front-End developer seeking an entry-level position with company to use my skills in coding. Ready to join a new team of professionals, always ready to learn something new and share my experience.",
+    "circles" : [
+        {"id" : 1, "title" : "Resume", "link" : "/resume"},
+        {"id" : 2, "title" : "Projects", "link" : "/projects"},
+        {"id" : 3, "title" : "Contacts", "link" : "/contacts"}
+    ]
+}

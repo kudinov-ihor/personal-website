@@ -1,0 +1,26 @@
+{
+    "sectionTitle" : "Resume",
+    "workExperienceTitle" : "Work Experience",
+    "workExperience" : [
+        {"id" : 1, "position" : "Front-end developer", "date" : "2020-2021", "company" : "LEGAL LEAGUE «Legal Association»", "content" : "During the project I developed a website https://sud.te.ua/ I made a layout of the website by HTML and CSS. I put the website on SMC WordPress."},
+        {"id" : 2, "position" : "Front-end developer", "date" : "2021-2022", "company" : "Auto workshop «SkloAuto»", "content" : "During the project I developed a website using HTML, CSS, JavaScript. Also I put this website on CMS WordPress"},
+        {"id" : 3, "position" : "Web developer", "date" : "2022", "company" : "Publishing house «Dzhura»", "content" : "During the I project developed an online store https://dzhura.te.ua/ I processed Excel spreadsheets to create databases. I got great experience in working with the website builder WayForPay."},
+        {"id" : 4, "position" : "Front-end developer", "date" : "2022", "company" : "Charitable organization «CHRISTIAN CHARITABLE FOUNDATION «CHARITY»", "content" : "During the I project developed a website https://dobrotvor.com.ua/ I develop design for both computer and mobile versions. I made the website layout development using HTML, CSS (SCSS), JavaScript. Also I made another version using React framework. I made this website International by adding multi language. Besides I made this website visible in Google Search. Also added Google analytics service."}
+    ],
+    "educationTitle" : "Education",
+    "education" : [
+        {"id" : 1, "degree" : "Master's degree", "place" : "Ternopil Pedagogical National University named after V. Hnatyuk", "date" : "2015-2021"}
+    ],
+    "skillsTitle" : "Skills",
+    "skills" : [
+        {"id" : 1, "skill" : "HTML/CSS/SCSS"},
+        {"id" : 2, "skill" : "JavaScript"},
+        {"id" : 3, "skill" : "GIT"},
+        {"id" : 4, "skill" : "GULP"},
+        {"id" : 5, "skill" : "WordPress"},
+        {"id" : 6, "skill" : "flex-box/grid"},
+        {"id" : 7, "skill" : "React (foundamental)"}
+
+    ]
+
+}

@@ -1,0 +1,8 @@
+{
+    "sectionTitle" : "Contacts",
+    "sectionDescr" : "Looking forward to hearing from you",
+    "infoList" : [
+        {"id" : 1, "title" : "Phone", "content" : "+380982327807"},
+        {"id" : 2, "title" : "Email", "content" : "kudinov.igor98@gmail.com"}
+    ]
+}

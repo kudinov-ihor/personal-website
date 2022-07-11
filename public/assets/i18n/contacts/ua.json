@@ -1,0 +1,8 @@
+{
+    "sectionTitle" : "Контакти",
+    "sectionDescr" : "З нетерпінням чекаю на вашу пропозицію",
+    "infoList" : [
+        {"id" : 1, "title" : "Телефон", "content" : "+380982327807"},
+        {"id" : 2, "title" : "Email", "content" : "kudinov.igor98@gmail.com"}
+    ]
+}

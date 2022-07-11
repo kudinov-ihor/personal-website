@@ -1,0 +1,25 @@
+.contact {
+    padding-bottom: 120px;
+    .container-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        font-size: 42px;
+        &_small {
+            font-size: 18px;
+        }    
+    }
+    &__descr {
+        font-size: 16px;
+        margin-bottom: 30px;
+        &_small {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+    }
+    img {
+        max-width: 700px;
+    }
+}

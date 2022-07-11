@@ -1,0 +1,36 @@
+.projects {
+    padding: 120px;
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        &_small {
+            text-align: center;
+            margin-bottom: 70px;
+            font-size: 18px;
+        }
+        
+    }
+    &__type {
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 35px;
+        font-weight: 700;
+    }
+    &__wrapper {
+        display: grid;
+        grid-template: repeat(2, 280px) / repeat(4, 280px);
+        grid-auto-rows: 280px;
+        gap: 5px;
+        justify-content: center;
+    }
+    &__item {
+
+        img {
+            cursor: pointer;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+    }
+}
