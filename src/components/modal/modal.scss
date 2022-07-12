@@ -1,7 +1,8 @@
 .modal-window {
+    position: relative;
     background-color: #fff;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
     max-width: 1300px;
     border-radius: 12px;
     display: flex;
@@ -12,6 +13,26 @@
     gap: 20px;
     div {
         width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        a {
+            display: block;
+        }
+    }
+    &__close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 5px;
+        font-size: 20px;
+        color: #EEA302;
+        border: none;
+    }
+    &__button {
+        padding: 10px;
+        font-weight: 700;
+        background: #EEA302;
     }
     &__title {
         text-align: center;
@@ -19,5 +40,24 @@
     &__content {
         text-align: center;
         
+    }
+}
+@media screen and (max-width: 1200px) {
+    .modal-window {
+        img {
+            max-width: 400px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .modal-window {
+        flex-wrap: wrap-reverse;
+        flex-direction: row-reverse;
+        div {
+            width: 90%;
+        }
+        img {
+            max-width: 300px;
+        }
     }
 }

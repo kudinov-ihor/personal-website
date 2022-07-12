@@ -77,7 +77,7 @@ function Home() {
         >
         <div className="container">
             <div className="home-wrapper">
-                <img src={Image} className="home-wrapper__photo" />
+                <img src={Image} alt='Kudinov Ihor' className="home-wrapper__photo" />
                 <div className="home-wrapper__content">
                     <span className="home-wrapper__big-word">
                         {t("home:title")}

@@ -50,3 +50,39 @@
         }
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .home {
+        &-wrapper {
+            align-items:center;
+            &__photo {
+                max-width: 400px;
+                max-height: 400px;
+            }
+        }
+
+    }
+    
+}
+@media screen and (max-width: 992px) {
+    .home {
+        padding: 70px 0;
+        &-wrapper {
+            align-items:center;
+            &__photo {
+                display: none;
+            }
+        }
+
+    }
+}
+@media screen and (max-width: 576px) {
+    .home {
+        &-wrapper {
+            &__layout {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+    }
+}

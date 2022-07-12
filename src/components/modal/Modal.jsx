@@ -3,7 +3,12 @@ import './modal.scss';
 import {motion} from 'framer-motion';
 import Backdrop from '../backdrop/Backdrop';
 
-function Modal({handleClose, title, content, photo}) {
+import { useTranslation } from "react-i18next";
+
+function Modal({handleClose, title, content, photo, buttonLink }) {
+
+    const { t } = useTranslation(["common"]);
+
 
     const dropIn = {
         hidden: {
@@ -37,15 +42,19 @@ function Modal({handleClose, title, content, photo}) {
             animate="visible"
             exit="exit"
             >
-            <img src={require("../../assets/img/projects/info/" + photo + ".webp")} ></img>
+            <img src={require("../../assets/img/projects/info/" + photo + ".webp")} alt={title}></img>
             <div>
                 <h4 className="modal-window__title">
                     {title}
                 </h4> 
                 <p className="modal-window__content">
                     {content}
-                </p> 
+                </p>
+                <a href={buttonLink} target="_blank" rel="noopener noreferrer">
+                    <button className="modal-window__button">{t("buttonProjects")}</button>
+                </a>
             </div>
+            <button className="modal-window__close" onClick={handleClose}>X</button>
         </motion.div>
     </Backdrop>    
   )

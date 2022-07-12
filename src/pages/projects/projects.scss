@@ -1,5 +1,5 @@
 .projects {
-    padding: 120px;
+    padding: 120px 0;
     &__title {
         text-align: center;
         font-weight: 700;
@@ -31,6 +31,28 @@
             height: 100%;
             object-fit: cover;
             border-radius: 20px;
+        }
+    }
+}
+@media screen and (max-width: 1200px) {
+    .projects {
+        &__wrapper {
+            grid-template: repeat(2, 280px)/repeat(3, 280px);
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .projects {
+        &__wrapper {
+            grid-template: repeat(2, 280px)/repeat(2, 280px);
+        }
+    }
+}
+@media screen and (max-width: 576px) {
+    .projects {
+        padding: 80px 0;
+        &__wrapper {
+            grid-template: repeat(2, 280px)/repeat(1, 280px);
         }
     }
 }

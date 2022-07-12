@@ -23,3 +23,33 @@
         max-width: 700px;
     }
 }
+
+@media screen and (max-width: 1200px) {
+    .contact {
+        img {
+            max-width: 600px;
+        }
+    }
+}
+@media screen and (max-width: 992px) {
+    .contact {
+        img {
+            max-width: 400px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .container-flex {
+        padding-top: 50px;
+        justify-content: center !important; 
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 576px)  {
+    .contact {
+        img {
+            max-width: 300px;
+        }
+    }
+}

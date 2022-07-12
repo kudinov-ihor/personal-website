@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Link, NavLink} from 'react-router-dom';
 import './header.scss';
 
@@ -9,6 +9,8 @@ import { useTranslation } from 'react-i18next';
 function Header() {
 
     const {i18n, t} = useTranslation(["common", "navigation"]);
+
+    const [menu, setMenu] = useState(false);
 
     useEffect (() => {
             i18next.changeLanguage("en");
@@ -31,9 +33,27 @@ function Header() {
                 </NavLink>
             </li>
     );
+    const mobileNavigationLinks = i18next.t('navigation:navigation', {returnObjects: true}).map((link) => 
+
+        <li className="menu-link" key={link.id}>
+            <Link to={link.link}>{link.name}</Link>
+        </li>
+    );
 
   return (
-    <header className='header'>
+    <>
+        <div className={menu ? 'menu active' : 'menu'}>
+
+        <div className="menu-block">
+            <nav>
+                <ul className="menu-list" onClick={() => setMenu(false)}>
+                    {mobileNavigationLinks}
+                </ul>
+            </nav>
+        </div>
+
+        </div>
+        <header className='header'>
         <div className="header-logo">
             <span className="header-logo__circle"></span>
             <h4 className="header-logo__name">Ihor Kudinov</h4>
@@ -44,11 +64,17 @@ function Header() {
         </div>
         <nav>
             <ul className="header-nav">
-
                 {navigationLinks}
             </ul>
+
         </nav>
-    </header>
+        <div className={menu ? 'header__hamburger active' : 'header__hamburger'} onClick={() => setMenu(!menu)}>
+            <span ></span>
+            <span ></span>
+            <span ></span>
+        </div>
+        </header>
+    </>
   )
 }
 

@@ -30,6 +30,7 @@ function Projects() {
   
         <img 
             src={require("../../assets/img/projects/" + item.image + ".webp")} 
+            alt={item.title}
             onClick={()=> {
                 setModalData(item);
                 setShow(true);
@@ -62,7 +63,7 @@ function Projects() {
         <h3 className="projects__title_small">{t("projects:sectionDescr")}</h3>
         <div className="projects__wrapper">
           {eComercialProjectList}
-          {show && <Modal show={show} handleClose={handleClose} title={modalData.name} content={modalData.content} photo={modalData.infoImg}/>}
+          {show && <Modal show={show} handleClose={handleClose} title={modalData.name} content={modalData.content} photo={modalData.infoImg} buttonLink ={modalData.buttonLink}/>}
         </div>
       </div>
     </motion.section>

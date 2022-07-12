@@ -1,9 +1,11 @@
 footer {
     border-top: 1px solid gray;
     display: flex;
+
     justify-content: space-around;
     align-items:center;
     padding: 30px 0;
+
     
 }
 .footer {
@@ -12,5 +14,26 @@ footer {
     }
     &__copyright {
         font-size: 13px;
+    }
+    &__link {
+        text-decoration: none;
+        color: #000;
+        &:hover {
+            color: #EEA302;
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    footer {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    footer {
+        padding: 30px 10px;
+        justify-content: flex-start;
     }
 }

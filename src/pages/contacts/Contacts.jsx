@@ -36,7 +36,7 @@ function Contacts() {
             </div>
             <motion.img 
                 src={Hero} 
-                alt="" 
+                alt="Hero Contacts" 
                 initial= {{y: '-100vh'}}
                 animate= {{y: '0'}}
                 exit= {{y: '100vh'}}

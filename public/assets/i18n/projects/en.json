@@ -2,12 +2,12 @@
     "sectionTitle" : "Projects",
     "sectionDescr" : "All designs are purchased or taken from free resources",
     "projectList" : [
-        {"id" : 1, "name" : "LEGAL LEAGUE «Legal Association»", "content" : "During this project I used HTML, CSS, JavaScript techlogies, also I used CMS WordPress. You can check out this web site by link", "image" : "portfolio_sud", "infoImg" : "sud_project"},
-        {"id" : 2, "name" : "Publishing house «Dzhura»", "content" : "During this project I used HTML, CSS, JavaScript techlogies, also I used CMS WordPress. You can check out this web site by link", "image" : "portfolio_dzhura", "infoImg" : "dzhura_project"},
-        {"id" : 3, "name" : "Charitable organization «CHRISTIAN CHARITABLE FOUNDATION «CHARITY»", "content" : "I develop design for both computer and mobile versions. I made the website layout development using HTML, CSS (SCSS), JavaScript. Also I made another version using React framework. I made this website International by adding multi language. Besides I made this website visible in Google Search. Also added Google analytics service.", "image" : "portfolio_fund", "infoImg" : "fund_project"},
-        {"id" : 4, "name" : "Simple Landing Page using HTML/CSS", "image" : "portfolio_konstrukt", "infoImg" : "konstrukt_project"},
-        {"id" : 5, "name" : "Simple Landing Page for Restauraunt using React techlogies", "image" : "portfolio_restauraunt", "infoImg" : "restraunt_project"},
-        {"id" : 6, "name" : "Landing Page with Bootstrap Grid system HTML and CSS", "image" : "uber", "infoImg" : "driver_project"}
+        {"id" : 1, "name" : "LEGAL LEAGUE «Legal Association»", "content" : "During this project I used HTML, CSS, JavaScript techlogies, also I used CMS WordPress. You can check out this web site by link", "image" : "portfolio_sud", "infoImg" : "sud_project", "buttonLink" : "https://www.sud.te.ua/"},
+        {"id" : 2, "name" : "Publishing house «Dzhura»", "content" : "During this project I used HTML, CSS, JavaScript techlogies, also I used CMS WordPress. You can check out this web site by link", "image" : "portfolio_dzhura", "infoImg" : "dzhura_project", "buttonLink" : "https://dzhura.te.ua/"},
+        {"id" : 3, "name" : "Charitable organization «CHRISTIAN CHARITABLE FOUNDATION «CHARITY»", "content" : "I develop design for both computer and mobile versions. I made the website layout development using HTML, CSS (SCSS), JavaScript. Also I made another version using React framework. I made this website International by adding multi language. Besides I made this website visible in Google Search. Also added Google analytics service.", "image" : "portfolio_fund", "infoImg" : "fund_project", "buttonLink" : "https://dobrotvor.com.ua/"},
+        {"id" : 4, "name" : "Simple Landing Page using HTML/CSS", "image" : "portfolio_konstrukt", "infoImg" : "konstrukt_project", "buttonLink" : "http://konstrukt.kudinovihor.com/"},
+        {"id" : 5, "name" : "Simple Landing Page for Restauraunt using React techlogies", "image" : "portfolio_restauraunt", "infoImg" : "restraunt_project", "buttonLink" : "http://restaurant.kudinovihor.com/"},
+        {"id" : 6, "name" : "Landing Page with Bootstrap Grid system HTML and CSS", "image" : "uber", "infoImg" : "driver_project", "buttonLink" : "http://driver.kudinovihor.com/"}
     ]
 
 }
